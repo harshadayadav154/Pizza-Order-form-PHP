@@ -1,0 +1,173 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #5087ff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.pizza-form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bold-font {
+  font-weight: bold;
+  font-size: large;
+}
+
+.error {
+  color: red;
+}
+
+.checkbox-label {
+  display: inline-block;
+  width: auto;
+}
+
+/* Form fields */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Order summary */
+.order-summary {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.order-summary h2 {
+  color: #333;
+}
+
+.order-summary p {
+  margin: 10px 0;
+}
+
+/* Buttons */
+.submit-button,
+.modify-button {
+  background-color: #5087ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.submit-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styles for Order Summary */
+#confirmationForm {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+p {
+  color: #555;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Styles for Buttons */
+button {
+  background-color: #5087ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3360c3;
+}
+
+
+h1 {
+  color: #3360c3;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Adjust styles based on your form's layout and design */
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .pizza-form {
+    width: 90%;
+  }
+}
